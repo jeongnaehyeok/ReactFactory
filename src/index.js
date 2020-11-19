@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from 'App';
 
-import 'assets/scss/utils/reset.scss';
+import 'assets/scss/project.scss';
 
 ReactDOM.render(
   <React.StrictMode>
