@@ -16,6 +16,7 @@ module.exports = {
       'error',
       {
         extensions: ['.js', '.jsx'],
+        devDependencies: ['**/*.stories.js'],
       },
     ],
   },
