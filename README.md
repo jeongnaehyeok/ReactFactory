@@ -28,6 +28,24 @@ react 개발을 빠르게 하기위한 setup입니다.
   "files.autoSave": "onFocusChange",
 ```
 
+## Storybook
+
+### 기본 사용법
+
+```javascript
+import React from 'react';
+import App from '@/App'; // Components 불러오기
+
+// 제목
+export default {
+  title: 'App',
+  component: App,
+};
+
+// storybook 생성
+export const Basic = () => <App />;
+```
+
 ## Issue
 
 ### node-sass 버전때문에 생기는 이슈(20.11.18)
