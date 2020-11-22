@@ -1,4 +1,4 @@
-# React Factory
+# React Factory(20.11.22)
 
 react 개발을 빠르게 하기위한 setup입니다.
 
@@ -6,6 +6,21 @@ react 개발을 빠르게 하기위한 setup입니다.
 
 - node/12.19.0
 - create-react-app/3.4.1
+
+## 사용법
+
+```bash
+npm install
+# 서버 실행
+npm run start
+# or
+yarn run start
+
+# Storybook 실행
+npm run storybook
+# or
+yarn storybook
+```
 
 ## visual studio 설정
 
@@ -56,4 +71,48 @@ node-sass버전 확인 필요
 ```bash
 npm uninstall node-sass
 npm install node-sass@4.14.1
+```
+
+## 파일 구조
+
+```bash
+project
+├── README.md
+├── craco.config.js
+├── jsconfig.json
+├── package-lock.json
+├── package.json
+├── public
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   └── robots.txt
+├── src
+│   ├── App.js
+│   ├── assets
+│   │   ├── images
+│   │   └── scss
+│   │       ├── App.scss
+│   │       ├── project.scss
+│   │       └── utils
+│   │           ├── _base.scss
+│   │           ├── _mixins.scss
+│   │           ├── _variables.scss
+│   │           └── reset.scss
+│   ├── components
+│   │   ├── commons
+│   │   ├── elements
+│   │   ├── layouts
+│   │   └── pages
+│   ├── index.js
+│   ├── modules
+│   │   └── index.js
+│   ├── stories
+│   │   └── App.stories.js
+│   └── utils
+│       ├── api
+│       └── hooks
+└── yarn.lock
 ```
