@@ -11,6 +11,13 @@ module.exports = {
     'plugin:prettier/recommended',
   ],
   rules: {
+    'prettier/prettier': [
+      'error',
+      {
+        endOfLine: 'auto',
+      },
+    ],
+    'react/prop-types': 'off',
     'import/no-unresolved': 'off',
     'react/jsx-filename-extension': [
       'error',

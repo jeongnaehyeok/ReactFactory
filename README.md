@@ -26,7 +26,7 @@ yarn storybook
 
 ### 자동 Formatting 설정
 
-`⌘(command) + ,(comma)`를 눌러서 설정을 열고
+`⌘(command) + ,(comma)`또는 `ctrl + ,(comma)`를 눌러서 설정을 열고
 ![](https://drive.google.com/uc?id=1maTB_bG86oe59UoIbeRW0vaavDVfZV4t)
 해당 아이콘을 눌러서 json파일로 `settings`파일 하단에 다음 내용을 추가한다
 
