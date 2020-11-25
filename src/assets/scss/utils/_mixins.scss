@@ -6,37 +6,37 @@
 
 $breakpoints: (
   // max
-  'max_xs':
+  'max-xs':
     (
       max-width: $mobile-portrait,
     ),
-  'max_s': (
+  'max-s': (
     max-width: $mobile-landscape,
   ),
-  'max_m': (
+  'max-m': (
     max-width: $tablet-portrait,
   ),
-  'max_l': (
+  'max-l': (
     max-width: $tablet-landscape,
   ),
-  'max_lg': (
+  'max-lg': (
     max-width: $desktop,
   ),
   // min
-  'min_xs':
+  'min-xs':
     (
       min-width: $mobile-portrait,
     ),
-  'min_s': (
+  'min-s': (
     min-width: $mobile-landscape,
   ),
-  'min_m': (
+  'min-m': (
     min-width: $tablet-portrait,
   ),
-  'min_l': (
+  'min-l': (
     min-width: $tablet-landscape,
   ),
-  'min_lg': (
+  'min-lg': (
     min-width: $desktop,
   )
 ) !default;
