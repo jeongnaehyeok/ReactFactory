@@ -17,6 +17,7 @@ module.exports = (env) => {
       open: true,
       historyApiFallback: true,
     },
+    devtool: isDevelopment ? "inline-source-map" : "cheap-module-source-map",
     entry: "./src/index.js",
     output: {
       filename: "bundle.[contenthash].js",
@@ -25,6 +26,20 @@ module.exports = (env) => {
     mode: "production",
     module: {
       rules: [
+        {
+          test: /\.(ttf|eot|woff|woff2)$/,
+          use: {
+            loader: "url-loader",
+          },
+        },
+        {
+          test: /\.(png|jpg|gif|svg)$/,
+          use: [
+            {
+              loader: "file-loader",
+            },
+          ],
+        },
         {
           test: /\.(js|jsx)$/,
           exclude: "/node_modules",
@@ -61,5 +76,9 @@ module.exports = (env) => {
         : []),
       new CleanWebpackPlugin(),
     ],
+    resolve: {
+      extensions: [".js", ".jsx"],
+      modules: [path.resolve(__dirname, "src"), "node_modules"],
+    },
   };
 };

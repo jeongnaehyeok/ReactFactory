@@ -1,8 +1,19 @@
 $fontColor: #2196f3;
 $fontSize: 52px;
 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
 .title {
   color: $fontColor;
   font-size: $fontSize;
   text-align: center;
+}
+img {
+  width: 400px;
+  height: auto;
 }

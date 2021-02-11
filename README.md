@@ -15,8 +15,8 @@ npm run start
 # or
 yarn run start
 
-# Storybook 실행
-npm run storybook
+# 빌드
+npm build
 # or
-yarn storybook
+yarn build
 ```
