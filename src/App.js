@@ -1,6 +1,6 @@
-import React from "react";
-import MyPicture from "./assets/myPicture.png";
-import "./index.scss";
+import React from 'react';
+import MyPicture from './assets/myPicture.png';
+import './index.scss';
 
 const App = () => {
   return (
