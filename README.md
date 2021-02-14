@@ -19,4 +19,9 @@ yarn run start
 npm build
 # or
 yarn build
+
+# 테스트
+npm test
+# or
+yarn test
 ```
